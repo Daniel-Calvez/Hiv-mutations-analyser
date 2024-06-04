@@ -1,0 +1,16 @@
+if (!require("BiocManager", quietly = TRUE)){
+  install.packages("BiocManager")
+}
+BiocManager::install("Biostrings")
+tinytex::install_tinytex()
+install.packages("tidyverse")
+install.packages("rvest")
+install.packages("shiny")
+install.packages("argparse")
+install.packages("stringr")
+install.packages("RSQLite")
+install.packages("readxl")
+install.packages("readr")
+install.packages("seqinr")
+install.packages("read.gb")
+install.packages("rmarkdown")

@@ -1,0 +1,25 @@
+name: hiv_mutation_analyser
+channels:
+   - conda-forge
+   - bioconda
+   - r
+dependencies:
+   - r-base=4.3.3
+   - r-tidyverse=2.0.0
+   - r-biocmanager=1.30.23
+   - bioconductor-biostrings=2.70.1
+   - r-rvest=1.0.4 
+   - r-shiny=1.8.1.1 
+   - r-argparse=2.2.3 
+   - r-rsqlite=2.3.4 
+   - r-readxl=1.4.2 
+   - r-readr=2.1.5 
+   - r-seqinr=4.2_30 
+   - r-read.gb=2.2 
+   - r-rmarkdown=2.27 
+   - r-tinytex=0.51 
+   - r-shinyalert=3.1.0 
+   - r-colourpicker=1.2.0 
+   - r-shinydisconnect=0.1.0
+   - r-bslib=0.7.0 
+   - r-dt=0.33 

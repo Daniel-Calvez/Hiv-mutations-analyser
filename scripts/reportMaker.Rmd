@@ -1,0 +1,29 @@
+---
+title: Détection des mutations associées à des résistances aux traitements du VIH
+output:
+  pdf_document: default
+params:
+  allResistancesFound: "temp"
+  allPossibleResistancesFound: "temp"
+---
+
+Ce rapport contient les résistances au traitement des séquences génétiques passées en entrée
+ainsi que leurs mutations associées
+
+# Résultats
+
+*[Les données de références proviennent du site en lien](https://hivfrenchresistance.org)*
+```{r include=FALSE}
+library(knitr)
+knitr::opts_chunk$set(message = FALSE, warning = FALSE, echo = FALSE)
+```
+
+## Liste des mutations possiblement associées a des résistances
+```{r}
+kable(params$allResistancesFound[-4])
+```
+
+## Liste des mutations associées a des résistances
+```{r}
+kable(params$allPossibleResistancesFound[-4])
+```
